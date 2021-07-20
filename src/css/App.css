@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #3d405b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,15 +25,42 @@
 }
 
 .about .App-header {
-  background-color: slateblue;
+  background-color: #e07a5f;
 }
 
-.users .App-header {
-  background-color: coral;
+.projects .App-header {
+  background-color: #f2cc8f;
+}
+
+.contact .App-header {
+  background-color: #81b29a;
+}
+
+.App-header h1 {
+  color: #61dafb;
+}
+.App-header p {
+  padding: 0 5% 0 5%;
 }
 
 .App-link {
   color: #61dafb;
+}
+.mainNavArea a {
+  color: #61dafb;
+  margin-left: 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.mainNavArea ul {
+  list-style-type: none; /* Remove bullets */
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
 }
 
 @keyframes App-logo-spin {

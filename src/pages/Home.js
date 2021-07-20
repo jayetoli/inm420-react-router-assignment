@@ -5,13 +5,14 @@ export default function Home() {
   return (
     <div className='App home'>
       <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Home COMPONENT Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
-          Learn React
-        </a>
+        <div>
+          <h1>Jairo Torres</h1>
+          <h3>PORTFOLIO</h3>
+          <p>
+            From initial design concepts and development throughout to delivering the final interactive product, I ensure the client’s vision and requirements are represented and brought to life. I am
+            a dedicated and detail-oriented team player, capable of working in fast-paced and high-profile environments while maintaining a high level of professionalism in every aspect of my role.
+          </p>
+        </div>
       </header>
     </div>
   );
