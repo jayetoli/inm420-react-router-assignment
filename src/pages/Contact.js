@@ -9,8 +9,8 @@ export default function Contact() {
           <h1>Contact Me</h1>
           <h3>DROP ME A LINE</h3>
           <p>
-            I will try to answer your mail as soon as possible. Thank you for your interest in my work
-            <a href='mailto:someone@yoursite.com'>Email Me</a>
+            I will try to answer your mail as soon as possible. Thank you for your interest in my work.&nbsp;&nbsp;
+            <a href='mailto:me@mysite.com'>e-mail me</a>
           </p>
         </div>
       </header>
