@@ -24,6 +24,14 @@
   color: white;
 }
 
+.about .App-header {
+  background-color: slateblue;
+}
+
+.users .App-header {
+  background-color: coral;
+}
+
 .App-link {
   color: #61dafb;
 }
