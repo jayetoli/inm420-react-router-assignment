@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -10,17 +10,27 @@ export default function App() {
       <div>
         <nav className='mainNavArea'>
           <ul className='nav'>
+            {/* NavLink supports activeClassName it help us to assign active class name to the link. 
+            We have to add  "exact" class to home link otherwise it will be active all the time    */}
             <li>
-              <Link to='/'>Home</Link>
+              <NavLink to='/' exact activeClassName='active'>
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <NavLink to='/about' activeClassName='active'>
+                About
+              </NavLink>
             </li>
             <li>
-              <Link to='/projects'>Projects</Link>
+              <NavLink to='/projects' activeClassName='active'>
+                Projects
+              </NavLink>
             </li>
             <li>
-              <Link to='/contact'>Contact</Link>
+              <NavLink to='/contact' activeClassName='active'>
+                Contact
+              </NavLink>
             </li>
           </ul>
         </nav>

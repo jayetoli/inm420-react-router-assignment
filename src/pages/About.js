@@ -1,4 +1,4 @@
-import logo from './../images/logo.svg';
+import aboutimg from './../images/3D-presentation.jpg';
 import './../css/App.css';
 
 export default function About() {
@@ -6,6 +6,10 @@ export default function About() {
     <div className='App about'>
       <header className='App-header'>
         <div>
+          {/* Hero image with heroimg class to avoid horizonta scroll */}
+          <div>
+            <img src={aboutimg} className='heroimg' alt='arroba Ad' />
+          </div>
           <h1>About Me</h1>
           <h3>UI & UX, WEB AND GRAPHIC DESIGNER</h3>
           <p>

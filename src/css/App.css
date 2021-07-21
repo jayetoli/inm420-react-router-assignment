@@ -1,10 +1,12 @@
 .App {
   text-align: center;
 }
-
-.imgPortfolio {
-  width: 500px;
+/* Avoid horizontal scroll */
+.imgPortfolio,
+.heroimg {
+  max-width: 100%;
 }
+
 .App-header {
   background-color: #3d405b;
   min-height: 100vh;
@@ -15,31 +17,29 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+/* Start Background colors pages */
 .about .App-header {
   background-color: #e07a5f;
 }
 
 .projects .App-header {
-  background-color: #f2cc8f;
+  background-color: #d1af79;
 }
 
 .contact .App-header {
   background-color: #81b29a;
 }
+/* End Background colors pages */
 
 .App-header h1 {
   color: #61dafb;
 }
+
 .App-header p {
-  padding: 0 5% 0 5%;
+  padding: 0 10% 0 10%;
 }
 
-.App-link {
-  color: #61dafb;
-}
 .mainNavArea a {
-  color: #61dafb;
   margin-left: 2rem;
   text-decoration: none;
   font-size: 1.2rem;
@@ -53,4 +53,18 @@
   display: flex;
   justify-content: flex-start;
   padding: 1rem;
+}
+/* Mobile first design */
+@media (min-width: 600px) {
+  .heroimg {
+    padding-top: 4rem;
+  }
+
+  .imgPortfolio {
+    width: 500px;
+  }
+
+  .active {
+    color: #61dafb;
+  }
 }

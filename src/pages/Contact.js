@@ -1,4 +1,4 @@
-import logo from './../images/logo.svg';
+import contimg from './../images/avengers.jpg';
 import './../css/App.css';
 
 export default function Contact() {
@@ -6,6 +6,10 @@ export default function Contact() {
     <div className='App contact'>
       <header className='App-header'>
         <div>
+          {/* Hero image with heroimg class to avoid horizonta scroll */}
+          <div>
+            <img src={contimg} className='heroimg' alt='arroba BSM' />
+          </div>
           <h1>Contact Me</h1>
           <h3>DROP ME A LINE</h3>
           <p>

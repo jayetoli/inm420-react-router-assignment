@@ -1,4 +1,4 @@
-import logo from './../images/logo.svg';
+import homeimg from './../images/01_arroba_cover.jpg';
 import './../css/App.css';
 
 export default function Home() {
@@ -6,6 +6,10 @@ export default function Home() {
     <div className='App home'>
       <header className='App-header'>
         <div>
+          {/* Hero image with heroimg class to avoid horizonta scroll */}
+          <div>
+            <img src={homeimg} className='heroimg' alt='arroba BSM' />
+          </div>
           <h1>Jairo Torres</h1>
           <h3>PORTFOLIO</h3>
           <p>
